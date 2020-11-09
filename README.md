@@ -23,7 +23,14 @@
   git remote add -f origin https://github.com/sangheon-kim/boilerplate-collection.git
   ```
 
-  4. echo "saga-boilerplate/\*" > .git/info/sparse-checkout
-  5. git checkout master
+  4. .git/info/sparse-checkout에다가 클론 받을 서브디렉터리를 넣는다
 
-끝
+  ```bash
+  $ echo "saga-boilerplate/\*" > .git/info/sparse-checkout
+  ```
+
+  5. 마스터 브랜치로 전환해주면 클론완료!
+
+  ```bash
+  git checkout master
+  ```
