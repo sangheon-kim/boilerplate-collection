@@ -27,10 +27,10 @@
   $ git remote add -f origin https://github.com/sangheon-kim/boilerplate-collection.git
   ```
 
-  4. echo 명령을 활용해서 .git/info/sparse-checkout 폴더에 입력해주자.
+  4. echo 명령을 활용해서 특정 폴더경로를 지정해서 .git/info/sparse-checkout 폴더에 입력해주자.
 
   ```bash
-  $ echo "saga-boilerplate/\*" > .git/info/sparse-checkout
+  $ echo "saga-boilerplate/*" > .git/info/sparse-checkout
   ```
 
   5. 마스터 브랜치로 변경해주자
