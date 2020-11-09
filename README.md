@@ -6,7 +6,7 @@
 
 - 특정 폴더만 Clone(Checkout) 하는 방법
 
-- 예) saga-boilerplate
+- 예) saga-boilerplate 폴더만 가져와보자
 
   1. 클론할 저장소를 만들고 이동
 
