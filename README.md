@@ -1,5 +1,12 @@
 # 보일러 플레이트 모음
 
+## `보일러플레이트 종류`
+
+- `Saga-Boilerplate` (React(typescript), Redux, Redux-Saga, SASS, Axios, Webpack)
+- `Gulp-Boilerplate` (HTML, CSS, JS, GULP (png sprite, babel, browserify, sass))
+
+## 사용법
+
 **Window 유저의 경우에는 Git Bash설치 후 Bash 쉘을 가지고 작업해주시면 더 원할하게 하실 수 있습니다**
 
 - SVN의 경우에는 경로를 지정해서 checkout을 해올 수 있으나, GIT은 그런기능이 없을까? 고민하던중에 찾아보다가 발견하게 되어 정리하였습니다.
