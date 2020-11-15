@@ -33,10 +33,17 @@
   $ echo "saga-boilerplate/*" > .git/info/sparse-checkout
   ```
 
-  5. 마스터 브랜치로 변경해주자
+  5. master 브랜치 체크아웃
 
   ```bash
   $ git checkout master
   ```
 
-끝
+  6. 해당 폴더가 생긴것을 확인 한 후 디렉터리 이동 후 .git 폴더 삭제 후 사용 그리고 새로 repo에 push한다.
+
+  ```bash
+  $ cd saga-boilerplate
+  $ rm -rf .git
+  ```
+
+  끝
