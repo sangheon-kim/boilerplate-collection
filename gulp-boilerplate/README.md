@@ -1,21 +1,10 @@
-# 보일러 플레이트 모음
+# Gulp Boilerplate
 
-## `보일러플레이트 종류`
-
-- `Saga-Boilerplate` (React(typescript), Redux, Redux-Saga, SASS, Axios, Webpack, CRA(EJECT))
-  - <a href="https://github.com/sangheon-kim/boilerplate-collection/tree/master/saga-boilerplate">Go to Explore</a>
-- `Gulp-Boilerplate` (HTML, CSS, JS, GULP (png sprite, babel, browserify, sass))
-  - <a href="https://github.com/sangheon-kim/boilerplate-collection/tree/master/gulp-boilerplate">Go to Explore</a>
-
-## 사용법
+## Usage
 
 **Window 유저의 경우에는 Git Bash설치 후 Bash 쉘을 가지고 작업해주시면 더 원할하게 하실 수 있습니다**
 
 - SVN의 경우에는 경로를 지정해서 checkout을 해올 수 있으나, GIT은 그런기능이 없을까? 고민하던중에 찾아보다가 발견하게 되어 정리하였습니다.
-
-- 특정 폴더만 Clone(Checkout) 하는 방법
-
-- 예) saga-boilerplate 폴더만 가져와보자
 
   1. 클론할 저장소를 만들고 이동
 
@@ -39,7 +28,7 @@
   4. echo 명령을 활용해서 특정 폴더경로를 지정해서 .git/info/sparse-checkout 폴더에 입력해주자.
 
   ```bash
-  $ echo "saga-boilerplate/*" > .git/info/sparse-checkout
+  $ echo "gulp-boilerplate/*" > .git/info/sparse-checkout
   ```
 
   5. master 브랜치 체크아웃
@@ -51,7 +40,7 @@
   6. 해당 폴더가 생긴것을 확인 한 후 디렉터리 이동 후 .git 폴더 삭제 후 사용 그리고 새로 repo에 push한다.
 
   ```bash
-  $ cd saga-boilerplate
+  $ cd gulp-boilerplate
   $ rm -rf .git
   ```
 
