@@ -7,6 +7,10 @@ export interface IUsersState {
 
 export interface IReqGetUsers {
   type: typeof REQ_GET_USERS;
+  payload: {
+    page: number;
+    limit: number;
+  };
 }
 
 interface IResGetUsers {

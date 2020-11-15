@@ -9,12 +9,13 @@ const initialState: IUsersState = {
 
 const users = createReducer<IUsersState, UsersActionTypes>(initialState, {
   [RES_GET_USERS]: (state: IUsersState, action: UsersActionTypes) => {
-    return { ...state, userList: action.payload.users };
+    return { ...state, userList: [...state.userList, ...action.payload.users] };
   },
 });
 
-export const reqGetUsers: () => IReqGetUsers = () => ({
+export const reqGetUsers: (payload: { page: number; limit: number }) => IReqGetUsers = ({ page, limit = 2 }) => ({
   type: REQ_GET_USERS,
+  payload: { page, limit },
 });
 
 export default users;
