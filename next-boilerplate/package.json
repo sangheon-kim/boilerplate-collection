@@ -1,0 +1,29 @@
+{
+  "name": "next-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "main": "function.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "yarn build && cross-env NODE_ENV=production firebase deploy --only functions,hosting"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "firebase-admin": "^9.4.1",
+    "firebase-functions": "^3.12.0",
+    "next": "10.0.3",
+    "next-i18next": "^7.0.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "sass": "^1.29.0",
+    "typescript": "^4.1.2"
+  }
+}
